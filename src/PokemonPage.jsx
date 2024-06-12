@@ -30,6 +30,7 @@ const PokemonPage = ({ previous, next }) => {
 
   return (
     <>
+      <h1>TEST</h1>
       <div className="links">
         {previous && <Link to={`/pokemon/${previous.name}`}>Previous</Link>}
         <Link to="/">Home</Link>
