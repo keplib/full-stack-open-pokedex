@@ -113,7 +113,7 @@ describe('<PokemonPage />', () => {
       );
     });
 
-    expect(screen.getByText('Previous')).toHaveAttribute('href', '/pokemon/ditto2');
+    expect(screen.getByText('Previous')).toHaveAttribute('href', '/pokemon/ditto');
     expect(screen.getByText('Next')).toHaveAttribute('href', '/pokemon/vaporeon');
   });
 
